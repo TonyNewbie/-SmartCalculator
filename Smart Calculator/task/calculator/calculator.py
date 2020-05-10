@@ -11,7 +11,7 @@ def is_int(string):
 
 def execute_command(command):
     if command == '/help':
-        return ('The program calculates expressions containing +, -, *, /, ^ operations\n'
+        return ('The program calculates expressions containing +, -, *, /, ^ operations and parenthesis\n'
                 'On this stage you also can use variables\n'
                 'To see a list of variables type /vars command.')
     elif command == '/vars':
